@@ -2,7 +2,9 @@ I use Classification ML model to automate decision-making based on patient data 
 
 Column Descriptions:
 L-CORE – Core body temperature (e.g., low, normal, high).
+
 L-SURF – Surface body temperature (e.g., low, normal, high).
+
 L-O2 – Oxygen saturation level (e.g., good, excellent, bad).
 L-BP – Blood pressure level (e.g., low, normal, high).
 SURF-STBL – Surface temperature stability (e.g., stable, unstable).
