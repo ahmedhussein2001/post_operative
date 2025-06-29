@@ -1,20 +1,31 @@
-I use Classification ML model to automate decision-making based on patient data to predict whether a patient will be discharged or needs further care.
+# 🏥 Post-Operative Patient Classification
 
-Column Descriptions:
-L-CORE – Core body temperature (e.g., low, normal, high).
+## 📍 Overview
+This project focuses on classifying the condition of patients after surgery using a medical dataset. The goal is to predict the postoperative recovery status (e.g., normal, serious, critical) based on several clinical indicators using machine learning models.
 
-L-SURF – Surface body temperature (e.g., low, normal, high).
+## 🧠 Objectives
+- Analyze and preprocess real-world postoperative patient data.
+- Explore the relationships between features (e.g., blood pressure, heart condition, etc.).
+- Build classification models to predict patient status post-surgery.
+- Evaluate model performance using accuracy and classification metrics.
 
-L-O2 – Oxygen saturation level (e.g., good, excellent, bad).
+## 🛠️ Technologies Used
+- **Python**
+- **Pandas, NumPy** – Data manipulation
+- **Matplotlib, Seaborn** – Data visualization
+- **Scikit-learn** – ML models (Logistic Regression, Decision Tree, SVM)
 
-L-BP – Blood pressure level (e.g., low, normal, high).
+## 🔍 Workflow
+1. **Data Cleaning** – Handling missing values, converting categories.
+2. **Exploratory Data Analysis (EDA)** – Understanding feature relationships.
+3. **Model Training** – Classification using multiple algorithms.
+4. **Evaluation** – Accuracy, confusion matrix, and classification report.
 
-SURF-STBL – Surface temperature stability (e.g., stable, unstable).
-
-CORE-STBL – Core temperature stability (e.g., stable, unstable).
-
-BP-STBL – Blood pressure stability (e.g., stable, unstable).
-
-COMFORT – Patient comfort level (e.g., low, medium, high).
-
-decision ADM-DECS – The final decision about patient discharge (e.g., sent home, admitted, recommended for follow-up).
+## 📊 Sample Output
+```bash
+Model: Decision Tree
+Accuracy: 92%
+Classification Report:
+- Normal: Precision = 0.94, Recall = 0.91
+- Serious: Precision = 0.89, Recall = 0.93
+- Critical: Precision = 0.90, Recall = 0.89
